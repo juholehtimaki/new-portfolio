@@ -1,9 +1,12 @@
 import React from 'react';
+import { LeftSideBar } from './components/LeftSideBar';
+import { RightSideBar } from './components/RightSideBar';
 
 export const App = () => {
   return (
-    <div>
-      <h1 className='text-3xl font-bold underline'>Hello world!</h1>
+    <div className='flex'>
+      <RightSideBar />
+      <LeftSideBar />
     </div>
   );
 };
