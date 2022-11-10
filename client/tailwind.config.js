@@ -3,19 +3,18 @@ module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
+      fontFamily: {
+        chakra: ['Chakra Petch', 'sans-serif'],
+      },
       colors: {
-        primary: '#202225',
-        secondary: '#5865f2',
-        gray: {
-          900: '#202225',
-          800: '#2f3136',
-          700: '#36393f',
-          600: '#4f545c',
-          400: '#d4d7dc',
-          300: '#e3e5e8',
-          200: '#ebedef',
-          100: '#f2f3f5',
-        },
+        customWhite: '#e6f1ff',
+        customGreen: '#64ffda',
+        lightestSlate: '#ccd6f6',
+        lightSlate: '#a8b2d1',
+        slate: '#8892b0',
+        lightestNavy: '#0a192f',
+        lightNavy: '#112240',
+        navy: '#0a192f',
       },
     },
   },
